@@ -1,0 +1,6 @@
+Kod;Nazwa;Cena;Stan
+0017;Cyrkonie typu swarovski 50szt.;5;1.0
+0043917000497;Wahl body kit maszynka fryzjerska;190;1.0
+010170;Alfaparf pêdzelek do makija¿u;19,99;8.0
+010218;Rade³ko do skorek;2,2;2.0
+010317;Alfaparf ampu³ka pielêgncja;15,4;17.0

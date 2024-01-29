@@ -1,0 +1,1169 @@
+Control Identifiers:
+
+TLMainForm - ' Ergo Faktury i Magazyn wersja 26.00.02'    (L606, T17, R1827, B1404)
+[' Ergo Faktury i Magazyn wersja 26.00.02TLMainForm', ' Ergo Faktury i Magazyn wersja 26.00.02', 'TLMainForm']
+child_window(title=" Ergo Faktury i Magazyn wersja 26.00.02", class_name="TLMainForm")
+   | 
+   | TJvPanel - ''    (L614, T140, R1819, B1377)
+   | ['TJvPanel', 'Towary\\nwg asort.TJvPanel']
+   | child_window(class_name="TJvPanel")
+   |    | 
+   |    | TJvImgBtn - ''    (L1440, T762, R1652, B892)
+   |    | ['BankTJvImgBtn', 'TJvImgBtn', 'TJvImgBtn0', 'TJvImgBtn1', 'BankTJvImgBtn0', 'BankTJvImgBtn1']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L1220, T762, R1432, B892)
+   |    | ['WWTJvImgBtn', 'TJvImgBtn2', 'WWTJvImgBtn0', 'WWTJvImgBtn1']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L1000, T762, R1212, B892)
+   |    | ['WZTJvImgBtn', 'TJvImgBtn3', 'WZTJvImgBtn0', 'WZTJvImgBtn1']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L780, T762, R992, B892)
+   |    | ['TJvImgBtn4', 'TowaryTJvImgBtn', 'TowaryTJvImgBtn0', 'TowaryTJvImgBtn1']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L1440, T624, R1652, B754)
+   |    | ['BankTJvImgBtn2', 'TJvImgBtn5']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L1220, T624, R1432, B754)
+   |    | ['WWTJvImgBtn2', 'TJvImgBtn6']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L1000, T624, R1212, B754)
+   |    | ['WZTJvImgBtn2', 'TJvImgBtn7']
+   |    | child_window(class_name="TJvImgBtn")
+   |    | 
+   |    | TJvImgBtn - ''    (L780, T624, R992, B754)
+   |    | ['TJvImgBtn8', 'TowaryTJvImgBtn2']
+   |    | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1440, T762, R1652, B892)
+   | ['BankTJvImgBtn', 'TJvImgBtn', 'TJvImgBtn0', 'TJvImgBtn1', 'BankTJvImgBtn0', 'BankTJvImgBtn1']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1220, T762, R1432, B892)
+   | ['WWTJvImgBtn', 'TJvImgBtn2', 'WWTJvImgBtn0', 'WWTJvImgBtn1']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1000, T762, R1212, B892)
+   | ['WZTJvImgBtn', 'TJvImgBtn3', 'WZTJvImgBtn0', 'WZTJvImgBtn1']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L780, T762, R992, B892)
+   | ['TJvImgBtn4', 'TowaryTJvImgBtn', 'TowaryTJvImgBtn0', 'TowaryTJvImgBtn1']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1440, T624, R1652, B754)
+   | ['BankTJvImgBtn2', 'TJvImgBtn5']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1220, T624, R1432, B754)
+   | ['WWTJvImgBtn2', 'TJvImgBtn6']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L1000, T624, R1212, B754)
+   | ['WZTJvImgBtn2', 'TJvImgBtn7']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | TJvImgBtn - ''    (L780, T624, R992, B754)
+   | ['TJvImgBtn8', 'TowaryTJvImgBtn2']
+   | child_window(class_name="TJvImgBtn")
+   | 
+   | StatusBar - ''    (L614, T1377, R1819, B1396)
+   | ['StatusBar', 'StatusBar\tD', 'StatusBar\tSZF', ' Ergo Faktury i Magazyn wersja 26.00.02StatusBar', 'StatusBar\t']
+   | child_window(class_name="TLStatusBar")
+   | 
+   | TLPanel - ''    (L614, T140, R1819, B1377)
+   | ['TLPanel', 'Towary\\nwg asort.TLPanel']
+   | child_window(class_name="TLPanel")
+   | 
+   | TNotifierWindow - ''    (L614, T68, R614, B68)
+   | ['TNotifierWindow']
+   | child_window(class_name="TNotifierWindow")
+   | 
+   | TAdvDockPanel - ''    (L614, T68, R1819, B140)
+   | ['TAdvDockPanel', 'Towary\\nwg asort.TAdvDockPanel']
+   | child_window(class_name="TAdvDockPanel")
+   |    | 
+   |    | TLAdvToolBar - ''    (L617, T69, R1816, B139)
+   |    | ['TLAdvToolBar', 'Towary\\nwg asort.TLAdvToolBar']
+   |    | child_window(class_name="TLAdvToolBar")
+   |    |    | 
+   |    |    | Button - 'Zmiana\noperatora'    (L1676, T141, R1746, B207)
+   |    |    | ['Zmiana\\noperatoraButton', 'Button', 'Zmiana\\noperatora', 'Button0', 'Button1']
+   |    |    | child_window(title="Zmiana\noperatora", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Operacje'    (L1676, T141, R1746, B207)
+   |    |    | ['OperacjeButton', 'Operacje', 'Button2']
+   |    |    | child_window(title="Operacje", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Grupy'    (L1676, T141, R1746, B207)
+   |    |    | ['GrupyButton', 'Button3', 'Grupy']
+   |    |    | child_window(title="Grupy", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'U¿ytkownicy'    (L1956, T141, R2026, B207)
+   |    |    | ['Button4', 'U¿ytkownicy', 'U¿ytkownicyButton']
+   |    |    | child_window(title="U¿ytkownicy", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Rozmiar\nczcionki'    (L1886, T141, R1956, B207)
+   |    |    | ['Button5', 'Rozmiar\\nczcionki', 'Rozmiar\\nczcionkiButton']
+   |    |    | child_window(title="Rozmiar\nczcionki", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Opcje'    (L1816, T141, R1886, B207)
+   |    |    | ['Button6', 'Opcje', 'OpcjeButton']
+   |    |    | child_window(title="Opcje", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Konfiguracja'    (L1746, T141, R1816, B207)
+   |    |    | ['Button7', 'Konfiguracja', 'KonfiguracjaButton']
+   |    |    | child_window(title="Konfiguracja", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Edycja\npliku'    (L1676, T71, R1746, B137)
+   |    |    | ['Edycja\\nplikuButton', 'Button8', 'Edycja\\npliku']
+   |    |    | child_window(title="Edycja\npliku", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Zamkniêcia'    (L1816, T141, R1886, B207)
+   |    |    | ['ZamkniêciaButton', 'Button9', 'Zamkniêcia']
+   |    |    | child_window(title="Zamkniêcia", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Ewid.\nzakupu'    (L1746, T141, R1816, B207)
+   |    |    | ['Ewid.\\nzakupu', 'Ewid.\\nzakupuButton', 'Button10']
+   |    |    | child_window(title="Ewid.\nzakupu", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Ewid.\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    |    | ['Button11', 'Ewid.\\nsprzeda¿yButton', 'Ewid.\\nsprzeda¿y']
+   |    |    | child_window(title="Ewid.\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Operacje\nksiêgowania'    (L1676, T141, R1746, B207)
+   |    |    | ['Operacje\\nksiêgowaniaButton', 'Button12', 'Operacje\\nksiêgowania']
+   |    |    | child_window(title="Operacje\nksiêgowania", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Zasady\nrozksiêg. "5"'    (L1676, T141, R1746, B207)
+   |    |    | ['Zasady\\nrozksiêg. "5"', 'Button13', 'Zasady\\nrozksiêg. "5"Button']
+   |    |    | child_window(title="Zasady\nrozksiêg. "5"", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Wartoœci\nz\ndokumentów'    (L1676, T141, R1746, B207)
+   |    |    | ['Button14', 'Wartoœci\\nz\\ndokumentów', 'Wartoœci\\nz\\ndokumentówButton']
+   |    |    | child_window(title="Wartoœci\nz\ndokumentów", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Dekrety'    (L1676, T141, R1746, B207)
+   |    |    | ['Dekrety', 'DekretyButton', 'Button15']
+   |    |    | child_window(title="Dekrety", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Plan\nKont'    (L1676, T141, R1746, B207)
+   |    |    | ['Plan\\nKontButton', 'Button16', 'Plan\\nKont']
+   |    |    | child_window(title="Plan\nKont", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Wartoœci\nodsetek'    (L1676, T141, R1746, B207)
+   |    |    | ['Button17', 'Wartoœci\\nodsetekButton', 'Wartoœci\\nodsetek']
+   |    |    | child_window(title="Wartoœci\nodsetek", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Cenniki\nsprzeda¿y\npromocyjnej'    (L1676, T141, R1746, B207)
+   |    |    | ['Button18', 'Cenniki\\nsprzeda¿y\\npromocyjnej', 'Cenniki\\nsprzeda¿y\\npromocyjnejButton']
+   |    |    | child_window(title="Cenniki\nsprzeda¿y\npromocyjnej", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Cenniki\nogólne\nMM-kowe'    (L1676, T141, R1746, B207)
+   |    |    | ['Cenniki\\nogólne\\nMM-kowe', 'Button19', 'Cenniki\\nogólne\\nMM-koweButton']
+   |    |    | child_window(title="Cenniki\nogólne\nMM-kowe", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Cenniki\nogólne\nzakupu'    (L1676, T141, R1746, B207)
+   |    |    | ['Cenniki\\nogólne\\nzakupu', 'Button20', 'Cenniki\\nogólne\\nzakupuButton']
+   |    |    | child_window(title="Cenniki\nogólne\nzakupu", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Cenniki\nsprzeda¿y\nwalutowej'    (L1676, T141, R1746, B207)
+   |    |    | ['Cenniki\\nsprzeda¿y\\nwalutowejButton', 'Button21', 'Cenniki\\nsprzeda¿y\\nwalutowej']
+   |    |    | child_window(title="Cenniki\nsprzeda¿y\nwalutowej", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Cenniki\nogólne\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    |    | ['Cenniki\\nogólne\\nsprzeda¿yButton', 'Button22', 'Cenniki\\nogólne\\nsprzeda¿y']
+   |    |    | child_window(title="Cenniki\nogólne\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Parametry'    (L1676, T141, R1746, B207)
+   |    |    | ['Parametry', 'Button23', 'ParametryButton']
+   |    |    | child_window(title="Parametry", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Terminale\nkart\np³atniczych'    (L1676, T141, R1746, B207)
+   |    |    | ['Terminale\\nkart\\np³atniczychButton', 'Terminale\\nkart\\np³atniczych', 'Button24']
+   |    |    | child_window(title="Terminale\nkart\np³atniczych", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Kasy'    (L1676, T141, R1746, B207)
+   |    |    | ['Kasy', 'Button25', 'KasyButton']
+   |    |    | child_window(title="Kasy", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Banki'    (L1676, T141, R1746, B207)
+   |    |    | ['BankiButton', 'Button26', 'Banki']
+   |    |    | child_window(title="Banki", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Notes'    (L1676, T141, R1746, B207)
+   |    |    | ['Button27', 'Notes', 'NotesButton']
+   |    |    | child_window(title="Notes", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Sposoby\ntransportu'    (L1676, T141, R1746, B207)
+   |    |    | ['Sposoby\\ntransportuButton', 'Sposoby\\ntransportu', 'Button28']
+   |    |    | child_window(title="Sposoby\ntransportu", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Sposoby\np³atnoœci'    (L1676, T141, R1746, B207)
+   |    |    | ['Sposoby\\np³atnoœci', 'Sposoby\\np³atnoœciButton', 'Button29']
+   |    |    | child_window(title="Sposoby\np³atnoœci", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Magazyny'    (L1676, T141, R1746, B207)
+   |    |    | ['Magazyny', 'MagazynyButton', 'Button30']
+   |    |    | child_window(title="Magazyny", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Koszty'    (L1676, T141, R1746, B207)
+   |    |    | ['KosztyButton', 'Button31', 'Koszty']
+   |    |    | child_window(title="Koszty", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Pracownicy'    (L1676, T141, R1746, B207)
+   |    |    | ['Pracownicy', 'Button32', 'PracownicyButton']
+   |    |    | child_window(title="Pracownicy", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Grupy\nKlientów'    (L1676, T141, R1746, B207)
+   |    |    | ['Grupy\\nKlientów', 'Button33', 'Grupy\\nKlientówButton']
+   |    |    | child_window(title="Grupy\nKlientów", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Klienci\nmarketingowi'    (L1676, T141, R1746, B207)
+   |    |    | ['Klienci\\nmarketingowi', 'Klienci\\nmarketingowiButton', 'Button34']
+   |    |    | child_window(title="Klienci\nmarketingowi", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Klienci'    (L1606, T71, R1676, B137)
+   |    |    | ['KlienciButton', 'Klienci', 'Button35']
+   |    |    | child_window(title="Klienci", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Zestawienia'    (L1536, T71, R1606, B137)
+   |    |    | ['Zestawienia', 'Button36', 'ZestawieniaButton']
+   |    |    | child_window(title="Zestawienia", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Ksiêguj\nwszystkie'    (L1536, T141, R1606, B207)
+   |    |    | ['Button37', 'Ksiêguj\\nwszystkie', 'Ksiêguj\\nwszystkieButton']
+   |    |    | child_window(title="Ksiêguj\nwszystkie", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Ksiêguj\nniezaksiêgowane'    (L1536, T141, R1606, B207)
+   |    |    | ['Ksiêguj\\nniezaksiêgowane', 'Button38', 'Ksiêguj\\nniezaksiêgowaneButton']
+   |    |    | child_window(title="Ksiêguj\nniezaksiêgowane", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Noty\nodsetkowe'    (L1536, T141, R1606, B207)
+   |    |    | ['Noty\\nodsetkowe', 'Button39', 'Noty\\nodsetkoweButton']
+   |    |    | child_window(title="Noty\nodsetkowe", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Karta\np³atnicza'    (L1536, T141, R1606, B207)
+   |    |    | ['Karta\\np³atnicza', 'Karta\\np³atniczaButton', 'Button40']
+   |    |    | child_window(title="Karta\np³atnicza", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Kompensaty'    (L1536, T141, R1606, B207)
+   |    |    | ['Kompensaty', 'Button41', 'KompensatyButton']
+   |    |    | child_window(title="Kompensaty", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Bank'    (L1466, T71, R1536, B137)
+   |    |    | ['BankButton', 'Bank', 'Button42']
+   |    |    | child_window(title="Bank", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Kasa'    (L1396, T71, R1466, B137)
+   |    |    | ['KasaButton', 'Button43', 'Kasa']
+   |    |    | child_window(title="Kasa", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Kasa\ni Bank'    (L1326, T71, R1396, B137)
+   |    |    | ['Button44', 'Kasa\\ni Bank', 'Kasa\\ni BankButton']
+   |    |    | child_window(title="Kasa\ni Bank", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - '£¹czenie\nparagonów'    (L1326, T141, R1396, B207)
+   |    |    | ['£¹czenie\\nparagonów', 'Button45', '£¹czenie\\nparagonówButton']
+   |    |    | child_window(title="£¹czenie\nparagonów", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\nWW'    (L1326, T141, R1396, B207)
+   |    |    | ['Import\\nWW', 'Button46', 'Import\\nWWButton']
+   |    |    | child_window(title="Import\nWW", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\ndok. sprzed.'    (L1326, T141, R1396, B207)
+   |    |    | ['Import\\ndok. sprzed.', 'Button47', 'Import\\ndok. sprzed.Button']
+   |    |    | child_window(title="Import\ndok. sprzed.", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\nWZ'    (L1326, T141, R1396, B207)
+   |    |    | ['Import\\nWZButton', 'Import\\nWZ', 'Button48']
+   |    |    | child_window(title="Import\nWZ", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\nPW'    (L1326, T141, R1396, B207)
+   |    |    | ['Import\\nPW', 'Button49', 'Import\\nPWButton']
+   |    |    | child_window(title="Import\nPW", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\ndok. zakupu'    (L1326, T141, R1396, B207)
+   |    |    | ['Button50', 'Import\\ndok. zakupu', 'Import\\ndok. zakupuButton']
+   |    |    | child_window(title="Import\ndok. zakupu", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Import\nPZ'    (L1326, T141, R1396, B207)
+   |    |    | ['Import\\nPZ', 'Button51', 'Import\\nPZButton']
+   |    |    | child_window(title="Import\nPZ", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'PW'    (L1256, T71, R1326, B137)
+   |    |    | ['PW', 'PWButton', 'Button52']
+   |    |    | child_window(title="PW", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'WW'    (L1186, T71, R1256, B137)
+   |    |    | ['Button53', 'WW', 'WWButton']
+   |    |    | child_window(title="WW", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'PZ'    (L1116, T71, R1186, B137)
+   |    |    | ['PZ', 'Button54', 'PZButton']
+   |    |    | child_window(title="PZ", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Zakup'    (L1046, T71, R1116, B137)
+   |    |    | ['ZakupButton', 'Button55', 'Zakup']
+   |    |    | child_window(title="Zakup", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'WZ'    (L976, T71, R1046, B137)
+   |    |    | ['WZButton', 'Button56', 'WZ']
+   |    |    | child_window(title="WZ", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Sprzeda¿'    (L906, T71, R976, B137)
+   |    |    | ['Sprzeda¿Button', 'Button57', 'Sprzeda¿']
+   |    |    | child_window(title="Sprzeda¿", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Rezerwacje\nklienta'    (L906, T141, R976, B207)
+   |    |    | ['Rezerwacje\\nklientaButton', 'Button58', 'Rezerwacje\\nklienta']
+   |    |    | child_window(title="Rezerwacje\nklienta", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Zamówienia\nklienta'    (L906, T141, R976, B207)
+   |    |    | ['Zamówienia\\nklientaButton', 'Zamówienia\\nklienta', 'Button59']
+   |    |    | child_window(title="Zamówienia\nklienta", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Kontrakty\nklienta'    (L906, T141, R976, B207)
+   |    |    | ['Kontrakty\\nklienta', 'Button60', 'Kontrakty\\nklientaButton']
+   |    |    | child_window(title="Kontrakty\nklienta", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Spis\nz natury'    (L906, T141, R976, B207)
+   |    |    | ['Spis\\nz naturyButton', 'Button61', 'Spis\\nz natury']
+   |    |    | child_window(title="Spis\nz natury", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Inwentura\nasortymentami'    (L906, T141, R976, B207)
+   |    |    | ['Inwentura\\nasortymentamiButton', 'Inwentura\\nasortymentami', 'Button62']
+   |    |    | child_window(title="Inwentura\nasortymentami", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Inwentura'    (L836, T71, R906, B137)
+   |    |    | ['Button63', 'InwenturaButton', 'Inwentura']
+   |    |    | child_window(title="Inwentura", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Rozszerzone\ntreœci\nUs³ug'    (L836, T141, R906, B207)
+   |    |    | ['Button64', 'Rozszerzone\\ntreœci\\nUs³ug', 'Rozszerzone\\ntreœci\\nUs³ugButton']
+   |    |    | child_window(title="Rozszerzone\ntreœci\nUs³ug", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Towary'    (L766, T71, R836, B137)
+   |    |    | ['Button65', 'TowaryButton', 'Towary']
+   |    |    | child_window(title="Towary", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Asortymenty'    (L696, T71, R766, B137)
+   |    |    | ['Asortymenty', 'Button66', 'AsortymentyButton']
+   |    |    | child_window(title="Asortymenty", class_name="TAdvGlowButton")
+   |    |    | 
+   |    |    | Button - 'Towary\nwg asort.'    (L626, T71, R696, B137)
+   |    |    | ['Towary\\nwg asort.Button', 'Button67', 'Towary\\nwg asort.']
+   |    |    | child_window(title="Towary\nwg asort.", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zmiana\noperatora'    (L1676, T141, R1746, B207)
+   |    | ['Zmiana\\noperatoraButton', 'Button', 'Zmiana\\noperatora', 'Button0', 'Button1']
+   |    | child_window(title="Zmiana\noperatora", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Operacje'    (L1676, T141, R1746, B207)
+   |    | ['OperacjeButton', 'Operacje', 'Button2']
+   |    | child_window(title="Operacje", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Grupy'    (L1676, T141, R1746, B207)
+   |    | ['GrupyButton', 'Button3', 'Grupy']
+   |    | child_window(title="Grupy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'U¿ytkownicy'    (L1956, T141, R2026, B207)
+   |    | ['Button4', 'U¿ytkownicy', 'U¿ytkownicyButton']
+   |    | child_window(title="U¿ytkownicy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rozmiar\nczcionki'    (L1886, T141, R1956, B207)
+   |    | ['Button5', 'Rozmiar\\nczcionki', 'Rozmiar\\nczcionkiButton']
+   |    | child_window(title="Rozmiar\nczcionki", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Opcje'    (L1816, T141, R1886, B207)
+   |    | ['Button6', 'Opcje', 'OpcjeButton']
+   |    | child_window(title="Opcje", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Konfiguracja'    (L1746, T141, R1816, B207)
+   |    | ['Button7', 'Konfiguracja', 'KonfiguracjaButton']
+   |    | child_window(title="Konfiguracja", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Edycja\npliku'    (L1676, T71, R1746, B137)
+   |    | ['Edycja\\nplikuButton', 'Button8', 'Edycja\\npliku']
+   |    | child_window(title="Edycja\npliku", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zamkniêcia'    (L1816, T141, R1886, B207)
+   |    | ['ZamkniêciaButton', 'Button9', 'Zamkniêcia']
+   |    | child_window(title="Zamkniêcia", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ewid.\nzakupu'    (L1746, T141, R1816, B207)
+   |    | ['Ewid.\\nzakupu', 'Ewid.\\nzakupuButton', 'Button10']
+   |    | child_window(title="Ewid.\nzakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ewid.\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    | ['Button11', 'Ewid.\\nsprzeda¿yButton', 'Ewid.\\nsprzeda¿y']
+   |    | child_window(title="Ewid.\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Operacje\nksiêgowania'    (L1676, T141, R1746, B207)
+   |    | ['Operacje\\nksiêgowaniaButton', 'Button12', 'Operacje\\nksiêgowania']
+   |    | child_window(title="Operacje\nksiêgowania", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zasady\nrozksiêg. "5"'    (L1676, T141, R1746, B207)
+   |    | ['Zasady\\nrozksiêg. "5"', 'Button13', 'Zasady\\nrozksiêg. "5"Button']
+   |    | child_window(title="Zasady\nrozksiêg. "5"", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Wartoœci\nz\ndokumentów'    (L1676, T141, R1746, B207)
+   |    | ['Button14', 'Wartoœci\\nz\\ndokumentów', 'Wartoœci\\nz\\ndokumentówButton']
+   |    | child_window(title="Wartoœci\nz\ndokumentów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Dekrety'    (L1676, T141, R1746, B207)
+   |    | ['Dekrety', 'DekretyButton', 'Button15']
+   |    | child_window(title="Dekrety", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Plan\nKont'    (L1676, T141, R1746, B207)
+   |    | ['Plan\\nKontButton', 'Button16', 'Plan\\nKont']
+   |    | child_window(title="Plan\nKont", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Wartoœci\nodsetek'    (L1676, T141, R1746, B207)
+   |    | ['Button17', 'Wartoœci\\nodsetekButton', 'Wartoœci\\nodsetek']
+   |    | child_window(title="Wartoœci\nodsetek", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nsprzeda¿y\npromocyjnej'    (L1676, T141, R1746, B207)
+   |    | ['Button18', 'Cenniki\\nsprzeda¿y\\npromocyjnej', 'Cenniki\\nsprzeda¿y\\npromocyjnejButton']
+   |    | child_window(title="Cenniki\nsprzeda¿y\npromocyjnej", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nMM-kowe'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nMM-kowe', 'Button19', 'Cenniki\\nogólne\\nMM-koweButton']
+   |    | child_window(title="Cenniki\nogólne\nMM-kowe", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nzakupu'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nzakupu', 'Button20', 'Cenniki\\nogólne\\nzakupuButton']
+   |    | child_window(title="Cenniki\nogólne\nzakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nsprzeda¿y\nwalutowej'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nsprzeda¿y\\nwalutowejButton', 'Button21', 'Cenniki\\nsprzeda¿y\\nwalutowej']
+   |    | child_window(title="Cenniki\nsprzeda¿y\nwalutowej", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nsprzeda¿yButton', 'Button22', 'Cenniki\\nogólne\\nsprzeda¿y']
+   |    | child_window(title="Cenniki\nogólne\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Parametry'    (L1676, T141, R1746, B207)
+   |    | ['Parametry', 'Button23', 'ParametryButton']
+   |    | child_window(title="Parametry", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Terminale\nkart\np³atniczych'    (L1676, T141, R1746, B207)
+   |    | ['Terminale\\nkart\\np³atniczychButton', 'Terminale\\nkart\\np³atniczych', 'Button24']
+   |    | child_window(title="Terminale\nkart\np³atniczych", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasy'    (L1676, T141, R1746, B207)
+   |    | ['Kasy', 'Button25', 'KasyButton']
+   |    | child_window(title="Kasy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Banki'    (L1676, T141, R1746, B207)
+   |    | ['BankiButton', 'Button26', 'Banki']
+   |    | child_window(title="Banki", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Notes'    (L1676, T141, R1746, B207)
+   |    | ['Button27', 'Notes', 'NotesButton']
+   |    | child_window(title="Notes", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sposoby\ntransportu'    (L1676, T141, R1746, B207)
+   |    | ['Sposoby\\ntransportuButton', 'Sposoby\\ntransportu', 'Button28']
+   |    | child_window(title="Sposoby\ntransportu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sposoby\np³atnoœci'    (L1676, T141, R1746, B207)
+   |    | ['Sposoby\\np³atnoœci', 'Sposoby\\np³atnoœciButton', 'Button29']
+   |    | child_window(title="Sposoby\np³atnoœci", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Magazyny'    (L1676, T141, R1746, B207)
+   |    | ['Magazyny', 'MagazynyButton', 'Button30']
+   |    | child_window(title="Magazyny", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Koszty'    (L1676, T141, R1746, B207)
+   |    | ['KosztyButton', 'Button31', 'Koszty']
+   |    | child_window(title="Koszty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Pracownicy'    (L1676, T141, R1746, B207)
+   |    | ['Pracownicy', 'Button32', 'PracownicyButton']
+   |    | child_window(title="Pracownicy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Grupy\nKlientów'    (L1676, T141, R1746, B207)
+   |    | ['Grupy\\nKlientów', 'Button33', 'Grupy\\nKlientówButton']
+   |    | child_window(title="Grupy\nKlientów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Klienci\nmarketingowi'    (L1676, T141, R1746, B207)
+   |    | ['Klienci\\nmarketingowi', 'Klienci\\nmarketingowiButton', 'Button34']
+   |    | child_window(title="Klienci\nmarketingowi", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Klienci'    (L1606, T71, R1676, B137)
+   |    | ['KlienciButton', 'Klienci', 'Button35']
+   |    | child_window(title="Klienci", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zestawienia'    (L1536, T71, R1606, B137)
+   |    | ['Zestawienia', 'Button36', 'ZestawieniaButton']
+   |    | child_window(title="Zestawienia", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ksiêguj\nwszystkie'    (L1536, T141, R1606, B207)
+   |    | ['Button37', 'Ksiêguj\\nwszystkie', 'Ksiêguj\\nwszystkieButton']
+   |    | child_window(title="Ksiêguj\nwszystkie", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ksiêguj\nniezaksiêgowane'    (L1536, T141, R1606, B207)
+   |    | ['Ksiêguj\\nniezaksiêgowane', 'Button38', 'Ksiêguj\\nniezaksiêgowaneButton']
+   |    | child_window(title="Ksiêguj\nniezaksiêgowane", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Noty\nodsetkowe'    (L1536, T141, R1606, B207)
+   |    | ['Noty\\nodsetkowe', 'Button39', 'Noty\\nodsetkoweButton']
+   |    | child_window(title="Noty\nodsetkowe", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Karta\np³atnicza'    (L1536, T141, R1606, B207)
+   |    | ['Karta\\np³atnicza', 'Karta\\np³atniczaButton', 'Button40']
+   |    | child_window(title="Karta\np³atnicza", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kompensaty'    (L1536, T141, R1606, B207)
+   |    | ['Kompensaty', 'Button41', 'KompensatyButton']
+   |    | child_window(title="Kompensaty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Bank'    (L1466, T71, R1536, B137)
+   |    | ['BankButton', 'Bank', 'Button42']
+   |    | child_window(title="Bank", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasa'    (L1396, T71, R1466, B137)
+   |    | ['KasaButton', 'Button43', 'Kasa']
+   |    | child_window(title="Kasa", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasa\ni Bank'    (L1326, T71, R1396, B137)
+   |    | ['Button44', 'Kasa\\ni Bank', 'Kasa\\ni BankButton']
+   |    | child_window(title="Kasa\ni Bank", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - '£¹czenie\nparagonów'    (L1326, T141, R1396, B207)
+   |    | ['£¹czenie\\nparagonów', 'Button45', '£¹czenie\\nparagonówButton']
+   |    | child_window(title="£¹czenie\nparagonów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nWW'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nWW', 'Button46', 'Import\\nWWButton']
+   |    | child_window(title="Import\nWW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\ndok. sprzed.'    (L1326, T141, R1396, B207)
+   |    | ['Import\\ndok. sprzed.', 'Button47', 'Import\\ndok. sprzed.Button']
+   |    | child_window(title="Import\ndok. sprzed.", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nWZ'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nWZButton', 'Import\\nWZ', 'Button48']
+   |    | child_window(title="Import\nWZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nPW'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nPW', 'Button49', 'Import\\nPWButton']
+   |    | child_window(title="Import\nPW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\ndok. zakupu'    (L1326, T141, R1396, B207)
+   |    | ['Button50', 'Import\\ndok. zakupu', 'Import\\ndok. zakupuButton']
+   |    | child_window(title="Import\ndok. zakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nPZ'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nPZ', 'Button51', 'Import\\nPZButton']
+   |    | child_window(title="Import\nPZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'PW'    (L1256, T71, R1326, B137)
+   |    | ['PW', 'PWButton', 'Button52']
+   |    | child_window(title="PW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'WW'    (L1186, T71, R1256, B137)
+   |    | ['Button53', 'WW', 'WWButton']
+   |    | child_window(title="WW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'PZ'    (L1116, T71, R1186, B137)
+   |    | ['PZ', 'Button54', 'PZButton']
+   |    | child_window(title="PZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zakup'    (L1046, T71, R1116, B137)
+   |    | ['ZakupButton', 'Button55', 'Zakup']
+   |    | child_window(title="Zakup", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'WZ'    (L976, T71, R1046, B137)
+   |    | ['WZButton', 'Button56', 'WZ']
+   |    | child_window(title="WZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sprzeda¿'    (L906, T71, R976, B137)
+   |    | ['Sprzeda¿Button', 'Button57', 'Sprzeda¿']
+   |    | child_window(title="Sprzeda¿", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rezerwacje\nklienta'    (L906, T141, R976, B207)
+   |    | ['Rezerwacje\\nklientaButton', 'Button58', 'Rezerwacje\\nklienta']
+   |    | child_window(title="Rezerwacje\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zamówienia\nklienta'    (L906, T141, R976, B207)
+   |    | ['Zamówienia\\nklientaButton', 'Zamówienia\\nklienta', 'Button59']
+   |    | child_window(title="Zamówienia\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kontrakty\nklienta'    (L906, T141, R976, B207)
+   |    | ['Kontrakty\\nklienta', 'Button60', 'Kontrakty\\nklientaButton']
+   |    | child_window(title="Kontrakty\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Spis\nz natury'    (L906, T141, R976, B207)
+   |    | ['Spis\\nz naturyButton', 'Button61', 'Spis\\nz natury']
+   |    | child_window(title="Spis\nz natury", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Inwentura\nasortymentami'    (L906, T141, R976, B207)
+   |    | ['Inwentura\\nasortymentamiButton', 'Inwentura\\nasortymentami', 'Button62']
+   |    | child_window(title="Inwentura\nasortymentami", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Inwentura'    (L836, T71, R906, B137)
+   |    | ['Button63', 'InwenturaButton', 'Inwentura']
+   |    | child_window(title="Inwentura", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rozszerzone\ntreœci\nUs³ug'    (L836, T141, R906, B207)
+   |    | ['Button64', 'Rozszerzone\\ntreœci\\nUs³ug', 'Rozszerzone\\ntreœci\\nUs³ugButton']
+   |    | child_window(title="Rozszerzone\ntreœci\nUs³ug", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Towary'    (L766, T71, R836, B137)
+   |    | ['Button65', 'TowaryButton', 'Towary']
+   |    | child_window(title="Towary", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Asortymenty'    (L696, T71, R766, B137)
+   |    | ['Asortymenty', 'Button66', 'AsortymentyButton']
+   |    | child_window(title="Asortymenty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Towary\nwg asort.'    (L626, T71, R696, B137)
+   |    | ['Towary\\nwg asort.Button', 'Button67', 'Towary\\nwg asort.']
+   |    | child_window(title="Towary\nwg asort.", class_name="TAdvGlowButton")
+   | 
+   | TLAdvToolBar - ''    (L617, T69, R1816, B139)
+   | ['TLAdvToolBar', 'Towary\\nwg asort.TLAdvToolBar']
+   | child_window(class_name="TLAdvToolBar")
+   |    | 
+   |    | Button - 'Zmiana\noperatora'    (L1676, T141, R1746, B207)
+   |    | ['Zmiana\\noperatoraButton', 'Button', 'Zmiana\\noperatora', 'Button0', 'Button1']
+   |    | child_window(title="Zmiana\noperatora", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Operacje'    (L1676, T141, R1746, B207)
+   |    | ['OperacjeButton', 'Operacje', 'Button2']
+   |    | child_window(title="Operacje", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Grupy'    (L1676, T141, R1746, B207)
+   |    | ['GrupyButton', 'Button3', 'Grupy']
+   |    | child_window(title="Grupy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'U¿ytkownicy'    (L1956, T141, R2026, B207)
+   |    | ['Button4', 'U¿ytkownicy', 'U¿ytkownicyButton']
+   |    | child_window(title="U¿ytkownicy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rozmiar\nczcionki'    (L1886, T141, R1956, B207)
+   |    | ['Button5', 'Rozmiar\\nczcionki', 'Rozmiar\\nczcionkiButton']
+   |    | child_window(title="Rozmiar\nczcionki", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Opcje'    (L1816, T141, R1886, B207)
+   |    | ['Button6', 'Opcje', 'OpcjeButton']
+   |    | child_window(title="Opcje", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Konfiguracja'    (L1746, T141, R1816, B207)
+   |    | ['Button7', 'Konfiguracja', 'KonfiguracjaButton']
+   |    | child_window(title="Konfiguracja", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Edycja\npliku'    (L1676, T71, R1746, B137)
+   |    | ['Edycja\\nplikuButton', 'Button8', 'Edycja\\npliku']
+   |    | child_window(title="Edycja\npliku", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zamkniêcia'    (L1816, T141, R1886, B207)
+   |    | ['ZamkniêciaButton', 'Button9', 'Zamkniêcia']
+   |    | child_window(title="Zamkniêcia", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ewid.\nzakupu'    (L1746, T141, R1816, B207)
+   |    | ['Ewid.\\nzakupu', 'Ewid.\\nzakupuButton', 'Button10']
+   |    | child_window(title="Ewid.\nzakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ewid.\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    | ['Button11', 'Ewid.\\nsprzeda¿yButton', 'Ewid.\\nsprzeda¿y']
+   |    | child_window(title="Ewid.\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Operacje\nksiêgowania'    (L1676, T141, R1746, B207)
+   |    | ['Operacje\\nksiêgowaniaButton', 'Button12', 'Operacje\\nksiêgowania']
+   |    | child_window(title="Operacje\nksiêgowania", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zasady\nrozksiêg. "5"'    (L1676, T141, R1746, B207)
+   |    | ['Zasady\\nrozksiêg. "5"', 'Button13', 'Zasady\\nrozksiêg. "5"Button']
+   |    | child_window(title="Zasady\nrozksiêg. "5"", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Wartoœci\nz\ndokumentów'    (L1676, T141, R1746, B207)
+   |    | ['Button14', 'Wartoœci\\nz\\ndokumentów', 'Wartoœci\\nz\\ndokumentówButton']
+   |    | child_window(title="Wartoœci\nz\ndokumentów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Dekrety'    (L1676, T141, R1746, B207)
+   |    | ['Dekrety', 'DekretyButton', 'Button15']
+   |    | child_window(title="Dekrety", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Plan\nKont'    (L1676, T141, R1746, B207)
+   |    | ['Plan\\nKontButton', 'Button16', 'Plan\\nKont']
+   |    | child_window(title="Plan\nKont", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Wartoœci\nodsetek'    (L1676, T141, R1746, B207)
+   |    | ['Button17', 'Wartoœci\\nodsetekButton', 'Wartoœci\\nodsetek']
+   |    | child_window(title="Wartoœci\nodsetek", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nsprzeda¿y\npromocyjnej'    (L1676, T141, R1746, B207)
+   |    | ['Button18', 'Cenniki\\nsprzeda¿y\\npromocyjnej', 'Cenniki\\nsprzeda¿y\\npromocyjnejButton']
+   |    | child_window(title="Cenniki\nsprzeda¿y\npromocyjnej", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nMM-kowe'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nMM-kowe', 'Button19', 'Cenniki\\nogólne\\nMM-koweButton']
+   |    | child_window(title="Cenniki\nogólne\nMM-kowe", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nzakupu'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nzakupu', 'Button20', 'Cenniki\\nogólne\\nzakupuButton']
+   |    | child_window(title="Cenniki\nogólne\nzakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nsprzeda¿y\nwalutowej'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nsprzeda¿y\\nwalutowejButton', 'Button21', 'Cenniki\\nsprzeda¿y\\nwalutowej']
+   |    | child_window(title="Cenniki\nsprzeda¿y\nwalutowej", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Cenniki\nogólne\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   |    | ['Cenniki\\nogólne\\nsprzeda¿yButton', 'Button22', 'Cenniki\\nogólne\\nsprzeda¿y']
+   |    | child_window(title="Cenniki\nogólne\nsprzeda¿y", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Parametry'    (L1676, T141, R1746, B207)
+   |    | ['Parametry', 'Button23', 'ParametryButton']
+   |    | child_window(title="Parametry", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Terminale\nkart\np³atniczych'    (L1676, T141, R1746, B207)
+   |    | ['Terminale\\nkart\\np³atniczychButton', 'Terminale\\nkart\\np³atniczych', 'Button24']
+   |    | child_window(title="Terminale\nkart\np³atniczych", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasy'    (L1676, T141, R1746, B207)
+   |    | ['Kasy', 'Button25', 'KasyButton']
+   |    | child_window(title="Kasy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Banki'    (L1676, T141, R1746, B207)
+   |    | ['BankiButton', 'Button26', 'Banki']
+   |    | child_window(title="Banki", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Notes'    (L1676, T141, R1746, B207)
+   |    | ['Button27', 'Notes', 'NotesButton']
+   |    | child_window(title="Notes", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sposoby\ntransportu'    (L1676, T141, R1746, B207)
+   |    | ['Sposoby\\ntransportuButton', 'Sposoby\\ntransportu', 'Button28']
+   |    | child_window(title="Sposoby\ntransportu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sposoby\np³atnoœci'    (L1676, T141, R1746, B207)
+   |    | ['Sposoby\\np³atnoœci', 'Sposoby\\np³atnoœciButton', 'Button29']
+   |    | child_window(title="Sposoby\np³atnoœci", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Magazyny'    (L1676, T141, R1746, B207)
+   |    | ['Magazyny', 'MagazynyButton', 'Button30']
+   |    | child_window(title="Magazyny", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Koszty'    (L1676, T141, R1746, B207)
+   |    | ['KosztyButton', 'Button31', 'Koszty']
+   |    | child_window(title="Koszty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Pracownicy'    (L1676, T141, R1746, B207)
+   |    | ['Pracownicy', 'Button32', 'PracownicyButton']
+   |    | child_window(title="Pracownicy", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Grupy\nKlientów'    (L1676, T141, R1746, B207)
+   |    | ['Grupy\\nKlientów', 'Button33', 'Grupy\\nKlientówButton']
+   |    | child_window(title="Grupy\nKlientów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Klienci\nmarketingowi'    (L1676, T141, R1746, B207)
+   |    | ['Klienci\\nmarketingowi', 'Klienci\\nmarketingowiButton', 'Button34']
+   |    | child_window(title="Klienci\nmarketingowi", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Klienci'    (L1606, T71, R1676, B137)
+   |    | ['KlienciButton', 'Klienci', 'Button35']
+   |    | child_window(title="Klienci", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zestawienia'    (L1536, T71, R1606, B137)
+   |    | ['Zestawienia', 'Button36', 'ZestawieniaButton']
+   |    | child_window(title="Zestawienia", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ksiêguj\nwszystkie'    (L1536, T141, R1606, B207)
+   |    | ['Button37', 'Ksiêguj\\nwszystkie', 'Ksiêguj\\nwszystkieButton']
+   |    | child_window(title="Ksiêguj\nwszystkie", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Ksiêguj\nniezaksiêgowane'    (L1536, T141, R1606, B207)
+   |    | ['Ksiêguj\\nniezaksiêgowane', 'Button38', 'Ksiêguj\\nniezaksiêgowaneButton']
+   |    | child_window(title="Ksiêguj\nniezaksiêgowane", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Noty\nodsetkowe'    (L1536, T141, R1606, B207)
+   |    | ['Noty\\nodsetkowe', 'Button39', 'Noty\\nodsetkoweButton']
+   |    | child_window(title="Noty\nodsetkowe", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Karta\np³atnicza'    (L1536, T141, R1606, B207)
+   |    | ['Karta\\np³atnicza', 'Karta\\np³atniczaButton', 'Button40']
+   |    | child_window(title="Karta\np³atnicza", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kompensaty'    (L1536, T141, R1606, B207)
+   |    | ['Kompensaty', 'Button41', 'KompensatyButton']
+   |    | child_window(title="Kompensaty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Bank'    (L1466, T71, R1536, B137)
+   |    | ['BankButton', 'Bank', 'Button42']
+   |    | child_window(title="Bank", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasa'    (L1396, T71, R1466, B137)
+   |    | ['KasaButton', 'Button43', 'Kasa']
+   |    | child_window(title="Kasa", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kasa\ni Bank'    (L1326, T71, R1396, B137)
+   |    | ['Button44', 'Kasa\\ni Bank', 'Kasa\\ni BankButton']
+   |    | child_window(title="Kasa\ni Bank", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - '£¹czenie\nparagonów'    (L1326, T141, R1396, B207)
+   |    | ['£¹czenie\\nparagonów', 'Button45', '£¹czenie\\nparagonówButton']
+   |    | child_window(title="£¹czenie\nparagonów", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nWW'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nWW', 'Button46', 'Import\\nWWButton']
+   |    | child_window(title="Import\nWW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\ndok. sprzed.'    (L1326, T141, R1396, B207)
+   |    | ['Import\\ndok. sprzed.', 'Button47', 'Import\\ndok. sprzed.Button']
+   |    | child_window(title="Import\ndok. sprzed.", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nWZ'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nWZButton', 'Import\\nWZ', 'Button48']
+   |    | child_window(title="Import\nWZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nPW'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nPW', 'Button49', 'Import\\nPWButton']
+   |    | child_window(title="Import\nPW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\ndok. zakupu'    (L1326, T141, R1396, B207)
+   |    | ['Button50', 'Import\\ndok. zakupu', 'Import\\ndok. zakupuButton']
+   |    | child_window(title="Import\ndok. zakupu", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Import\nPZ'    (L1326, T141, R1396, B207)
+   |    | ['Import\\nPZ', 'Button51', 'Import\\nPZButton']
+   |    | child_window(title="Import\nPZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'PW'    (L1256, T71, R1326, B137)
+   |    | ['PW', 'PWButton', 'Button52']
+   |    | child_window(title="PW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'WW'    (L1186, T71, R1256, B137)
+   |    | ['Button53', 'WW', 'WWButton']
+   |    | child_window(title="WW", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'PZ'    (L1116, T71, R1186, B137)
+   |    | ['PZ', 'Button54', 'PZButton']
+   |    | child_window(title="PZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zakup'    (L1046, T71, R1116, B137)
+   |    | ['ZakupButton', 'Button55', 'Zakup']
+   |    | child_window(title="Zakup", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'WZ'    (L976, T71, R1046, B137)
+   |    | ['WZButton', 'Button56', 'WZ']
+   |    | child_window(title="WZ", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Sprzeda¿'    (L906, T71, R976, B137)
+   |    | ['Sprzeda¿Button', 'Button57', 'Sprzeda¿']
+   |    | child_window(title="Sprzeda¿", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rezerwacje\nklienta'    (L906, T141, R976, B207)
+   |    | ['Rezerwacje\\nklientaButton', 'Button58', 'Rezerwacje\\nklienta']
+   |    | child_window(title="Rezerwacje\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Zamówienia\nklienta'    (L906, T141, R976, B207)
+   |    | ['Zamówienia\\nklientaButton', 'Zamówienia\\nklienta', 'Button59']
+   |    | child_window(title="Zamówienia\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Kontrakty\nklienta'    (L906, T141, R976, B207)
+   |    | ['Kontrakty\\nklienta', 'Button60', 'Kontrakty\\nklientaButton']
+   |    | child_window(title="Kontrakty\nklienta", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Spis\nz natury'    (L906, T141, R976, B207)
+   |    | ['Spis\\nz naturyButton', 'Button61', 'Spis\\nz natury']
+   |    | child_window(title="Spis\nz natury", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Inwentura\nasortymentami'    (L906, T141, R976, B207)
+   |    | ['Inwentura\\nasortymentamiButton', 'Inwentura\\nasortymentami', 'Button62']
+   |    | child_window(title="Inwentura\nasortymentami", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Inwentura'    (L836, T71, R906, B137)
+   |    | ['Button63', 'InwenturaButton', 'Inwentura']
+   |    | child_window(title="Inwentura", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Rozszerzone\ntreœci\nUs³ug'    (L836, T141, R906, B207)
+   |    | ['Button64', 'Rozszerzone\\ntreœci\\nUs³ug', 'Rozszerzone\\ntreœci\\nUs³ugButton']
+   |    | child_window(title="Rozszerzone\ntreœci\nUs³ug", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Towary'    (L766, T71, R836, B137)
+   |    | ['Button65', 'TowaryButton', 'Towary']
+   |    | child_window(title="Towary", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Asortymenty'    (L696, T71, R766, B137)
+   |    | ['Asortymenty', 'Button66', 'AsortymentyButton']
+   |    | child_window(title="Asortymenty", class_name="TAdvGlowButton")
+   |    | 
+   |    | Button - 'Towary\nwg asort.'    (L626, T71, R696, B137)
+   |    | ['Towary\\nwg asort.Button', 'Button67', 'Towary\\nwg asort.']
+   |    | child_window(title="Towary\nwg asort.", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zmiana\noperatora'    (L1676, T141, R1746, B207)
+   | ['Zmiana\\noperatoraButton', 'Button', 'Zmiana\\noperatora', 'Button0', 'Button1']
+   | child_window(title="Zmiana\noperatora", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Operacje'    (L1676, T141, R1746, B207)
+   | ['OperacjeButton', 'Operacje', 'Button2']
+   | child_window(title="Operacje", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Grupy'    (L1676, T141, R1746, B207)
+   | ['GrupyButton', 'Button3', 'Grupy']
+   | child_window(title="Grupy", class_name="TAdvGlowButton")
+   | 
+   | Button - 'U¿ytkownicy'    (L1956, T141, R2026, B207)
+   | ['Button4', 'U¿ytkownicy', 'U¿ytkownicyButton']
+   | child_window(title="U¿ytkownicy", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Rozmiar\nczcionki'    (L1886, T141, R1956, B207)
+   | ['Button5', 'Rozmiar\\nczcionki', 'Rozmiar\\nczcionkiButton']
+   | child_window(title="Rozmiar\nczcionki", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Opcje'    (L1816, T141, R1886, B207)
+   | ['Button6', 'Opcje', 'OpcjeButton']
+   | child_window(title="Opcje", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Konfiguracja'    (L1746, T141, R1816, B207)
+   | ['Button7', 'Konfiguracja', 'KonfiguracjaButton']
+   | child_window(title="Konfiguracja", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Edycja\npliku'    (L1676, T71, R1746, B137)
+   | ['Edycja\\nplikuButton', 'Button8', 'Edycja\\npliku']
+   | child_window(title="Edycja\npliku", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zamkniêcia'    (L1816, T141, R1886, B207)
+   | ['ZamkniêciaButton', 'Button9', 'Zamkniêcia']
+   | child_window(title="Zamkniêcia", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Ewid.\nzakupu'    (L1746, T141, R1816, B207)
+   | ['Ewid.\\nzakupu', 'Ewid.\\nzakupuButton', 'Button10']
+   | child_window(title="Ewid.\nzakupu", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Ewid.\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   | ['Button11', 'Ewid.\\nsprzeda¿yButton', 'Ewid.\\nsprzeda¿y']
+   | child_window(title="Ewid.\nsprzeda¿y", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Operacje\nksiêgowania'    (L1676, T141, R1746, B207)
+   | ['Operacje\\nksiêgowaniaButton', 'Button12', 'Operacje\\nksiêgowania']
+   | child_window(title="Operacje\nksiêgowania", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zasady\nrozksiêg. "5"'    (L1676, T141, R1746, B207)
+   | ['Zasady\\nrozksiêg. "5"', 'Button13', 'Zasady\\nrozksiêg. "5"Button']
+   | child_window(title="Zasady\nrozksiêg. "5"", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Wartoœci\nz\ndokumentów'    (L1676, T141, R1746, B207)
+   | ['Button14', 'Wartoœci\\nz\\ndokumentów', 'Wartoœci\\nz\\ndokumentówButton']
+   | child_window(title="Wartoœci\nz\ndokumentów", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Dekrety'    (L1676, T141, R1746, B207)
+   | ['Dekrety', 'DekretyButton', 'Button15']
+   | child_window(title="Dekrety", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Plan\nKont'    (L1676, T141, R1746, B207)
+   | ['Plan\\nKontButton', 'Button16', 'Plan\\nKont']
+   | child_window(title="Plan\nKont", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Wartoœci\nodsetek'    (L1676, T141, R1746, B207)
+   | ['Button17', 'Wartoœci\\nodsetekButton', 'Wartoœci\\nodsetek']
+   | child_window(title="Wartoœci\nodsetek", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Cenniki\nsprzeda¿y\npromocyjnej'    (L1676, T141, R1746, B207)
+   | ['Button18', 'Cenniki\\nsprzeda¿y\\npromocyjnej', 'Cenniki\\nsprzeda¿y\\npromocyjnejButton']
+   | child_window(title="Cenniki\nsprzeda¿y\npromocyjnej", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Cenniki\nogólne\nMM-kowe'    (L1676, T141, R1746, B207)
+   | ['Cenniki\\nogólne\\nMM-kowe', 'Button19', 'Cenniki\\nogólne\\nMM-koweButton']
+   | child_window(title="Cenniki\nogólne\nMM-kowe", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Cenniki\nogólne\nzakupu'    (L1676, T141, R1746, B207)
+   | ['Cenniki\\nogólne\\nzakupu', 'Button20', 'Cenniki\\nogólne\\nzakupuButton']
+   | child_window(title="Cenniki\nogólne\nzakupu", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Cenniki\nsprzeda¿y\nwalutowej'    (L1676, T141, R1746, B207)
+   | ['Cenniki\\nsprzeda¿y\\nwalutowejButton', 'Button21', 'Cenniki\\nsprzeda¿y\\nwalutowej']
+   | child_window(title="Cenniki\nsprzeda¿y\nwalutowej", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Cenniki\nogólne\nsprzeda¿y'    (L1676, T141, R1746, B207)
+   | ['Cenniki\\nogólne\\nsprzeda¿yButton', 'Button22', 'Cenniki\\nogólne\\nsprzeda¿y']
+   | child_window(title="Cenniki\nogólne\nsprzeda¿y", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Parametry'    (L1676, T141, R1746, B207)
+   | ['Parametry', 'Button23', 'ParametryButton']
+   | child_window(title="Parametry", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Terminale\nkart\np³atniczych'    (L1676, T141, R1746, B207)
+   | ['Terminale\\nkart\\np³atniczychButton', 'Terminale\\nkart\\np³atniczych', 'Button24']
+   | child_window(title="Terminale\nkart\np³atniczych", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Kasy'    (L1676, T141, R1746, B207)
+   | ['Kasy', 'Button25', 'KasyButton']
+   | child_window(title="Kasy", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Banki'    (L1676, T141, R1746, B207)
+   | ['BankiButton', 'Button26', 'Banki']
+   | child_window(title="Banki", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Notes'    (L1676, T141, R1746, B207)
+   | ['Button27', 'Notes', 'NotesButton']
+   | child_window(title="Notes", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Sposoby\ntransportu'    (L1676, T141, R1746, B207)
+   | ['Sposoby\\ntransportuButton', 'Sposoby\\ntransportu', 'Button28']
+   | child_window(title="Sposoby\ntransportu", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Sposoby\np³atnoœci'    (L1676, T141, R1746, B207)
+   | ['Sposoby\\np³atnoœci', 'Sposoby\\np³atnoœciButton', 'Button29']
+   | child_window(title="Sposoby\np³atnoœci", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Magazyny'    (L1676, T141, R1746, B207)
+   | ['Magazyny', 'MagazynyButton', 'Button30']
+   | child_window(title="Magazyny", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Koszty'    (L1676, T141, R1746, B207)
+   | ['KosztyButton', 'Button31', 'Koszty']
+   | child_window(title="Koszty", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Pracownicy'    (L1676, T141, R1746, B207)
+   | ['Pracownicy', 'Button32', 'PracownicyButton']
+   | child_window(title="Pracownicy", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Grupy\nKlientów'    (L1676, T141, R1746, B207)
+   | ['Grupy\\nKlientów', 'Button33', 'Grupy\\nKlientówButton']
+   | child_window(title="Grupy\nKlientów", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Klienci\nmarketingowi'    (L1676, T141, R1746, B207)
+   | ['Klienci\\nmarketingowi', 'Klienci\\nmarketingowiButton', 'Button34']
+   | child_window(title="Klienci\nmarketingowi", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Klienci'    (L1606, T71, R1676, B137)
+   | ['KlienciButton', 'Klienci', 'Button35']
+   | child_window(title="Klienci", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zestawienia'    (L1536, T71, R1606, B137)
+   | ['Zestawienia', 'Button36', 'ZestawieniaButton']
+   | child_window(title="Zestawienia", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Ksiêguj\nwszystkie'    (L1536, T141, R1606, B207)
+   | ['Button37', 'Ksiêguj\\nwszystkie', 'Ksiêguj\\nwszystkieButton']
+   | child_window(title="Ksiêguj\nwszystkie", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Ksiêguj\nniezaksiêgowane'    (L1536, T141, R1606, B207)
+   | ['Ksiêguj\\nniezaksiêgowane', 'Button38', 'Ksiêguj\\nniezaksiêgowaneButton']
+   | child_window(title="Ksiêguj\nniezaksiêgowane", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Noty\nodsetkowe'    (L1536, T141, R1606, B207)
+   | ['Noty\\nodsetkowe', 'Button39', 'Noty\\nodsetkoweButton']
+   | child_window(title="Noty\nodsetkowe", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Karta\np³atnicza'    (L1536, T141, R1606, B207)
+   | ['Karta\\np³atnicza', 'Karta\\np³atniczaButton', 'Button40']
+   | child_window(title="Karta\np³atnicza", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Kompensaty'    (L1536, T141, R1606, B207)
+   | ['Kompensaty', 'Button41', 'KompensatyButton']
+   | child_window(title="Kompensaty", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Bank'    (L1466, T71, R1536, B137)
+   | ['BankButton', 'Bank', 'Button42']
+   | child_window(title="Bank", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Kasa'    (L1396, T71, R1466, B137)
+   | ['KasaButton', 'Button43', 'Kasa']
+   | child_window(title="Kasa", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Kasa\ni Bank'    (L1326, T71, R1396, B137)
+   | ['Button44', 'Kasa\\ni Bank', 'Kasa\\ni BankButton']
+   | child_window(title="Kasa\ni Bank", class_name="TAdvGlowButton")
+   | 
+   | Button - '£¹czenie\nparagonów'    (L1326, T141, R1396, B207)
+   | ['£¹czenie\\nparagonów', 'Button45', '£¹czenie\\nparagonówButton']
+   | child_window(title="£¹czenie\nparagonów", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\nWW'    (L1326, T141, R1396, B207)
+   | ['Import\\nWW', 'Button46', 'Import\\nWWButton']
+   | child_window(title="Import\nWW", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\ndok. sprzed.'    (L1326, T141, R1396, B207)
+   | ['Import\\ndok. sprzed.', 'Button47', 'Import\\ndok. sprzed.Button']
+   | child_window(title="Import\ndok. sprzed.", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\nWZ'    (L1326, T141, R1396, B207)
+   | ['Import\\nWZButton', 'Import\\nWZ', 'Button48']
+   | child_window(title="Import\nWZ", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\nPW'    (L1326, T141, R1396, B207)
+   | ['Import\\nPW', 'Button49', 'Import\\nPWButton']
+   | child_window(title="Import\nPW", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\ndok. zakupu'    (L1326, T141, R1396, B207)
+   | ['Button50', 'Import\\ndok. zakupu', 'Import\\ndok. zakupuButton']
+   | child_window(title="Import\ndok. zakupu", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Import\nPZ'    (L1326, T141, R1396, B207)
+   | ['Import\\nPZ', 'Button51', 'Import\\nPZButton']
+   | child_window(title="Import\nPZ", class_name="TAdvGlowButton")
+   | 
+   | Button - 'PW'    (L1256, T71, R1326, B137)
+   | ['PW', 'PWButton', 'Button52']
+   | child_window(title="PW", class_name="TAdvGlowButton")
+   | 
+   | Button - 'WW'    (L1186, T71, R1256, B137)
+   | ['Button53', 'WW', 'WWButton']
+   | child_window(title="WW", class_name="TAdvGlowButton")
+   | 
+   | Button - 'PZ'    (L1116, T71, R1186, B137)
+   | ['PZ', 'Button54', 'PZButton']
+   | child_window(title="PZ", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zakup'    (L1046, T71, R1116, B137)
+   | ['ZakupButton', 'Button55', 'Zakup']
+   | child_window(title="Zakup", class_name="TAdvGlowButton")
+   | 
+   | Button - 'WZ'    (L976, T71, R1046, B137)
+   | ['WZButton', 'Button56', 'WZ']
+   | child_window(title="WZ", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Sprzeda¿'    (L906, T71, R976, B137)
+   | ['Sprzeda¿Button', 'Button57', 'Sprzeda¿']
+   | child_window(title="Sprzeda¿", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Rezerwacje\nklienta'    (L906, T141, R976, B207)
+   | ['Rezerwacje\\nklientaButton', 'Button58', 'Rezerwacje\\nklienta']
+   | child_window(title="Rezerwacje\nklienta", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Zamówienia\nklienta'    (L906, T141, R976, B207)
+   | ['Zamówienia\\nklientaButton', 'Zamówienia\\nklienta', 'Button59']
+   | child_window(title="Zamówienia\nklienta", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Kontrakty\nklienta'    (L906, T141, R976, B207)
+   | ['Kontrakty\\nklienta', 'Button60', 'Kontrakty\\nklientaButton']
+   | child_window(title="Kontrakty\nklienta", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Spis\nz natury'    (L906, T141, R976, B207)
+   | ['Spis\\nz naturyButton', 'Button61', 'Spis\\nz natury']
+   | child_window(title="Spis\nz natury", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Inwentura\nasortymentami'    (L906, T141, R976, B207)
+   | ['Inwentura\\nasortymentamiButton', 'Inwentura\\nasortymentami', 'Button62']
+   | child_window(title="Inwentura\nasortymentami", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Inwentura'    (L836, T71, R906, B137)
+   | ['Button63', 'InwenturaButton', 'Inwentura']
+   | child_window(title="Inwentura", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Rozszerzone\ntreœci\nUs³ug'    (L836, T141, R906, B207)
+   | ['Button64', 'Rozszerzone\\ntreœci\\nUs³ug', 'Rozszerzone\\ntreœci\\nUs³ugButton']
+   | child_window(title="Rozszerzone\ntreœci\nUs³ug", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Towary'    (L766, T71, R836, B137)
+   | ['Button65', 'TowaryButton', 'Towary']
+   | child_window(title="Towary", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Asortymenty'    (L696, T71, R766, B137)
+   | ['Asortymenty', 'Button66', 'AsortymentyButton']
+   | child_window(title="Asortymenty", class_name="TAdvGlowButton")
+   | 
+   | Button - 'Towary\nwg asort.'    (L626, T71, R696, B137)
+   | ['Towary\\nwg asort.Button', 'Button67', 'Towary\\nwg asort.']
+   | child_window(title="Towary\nwg asort.", class_name="TAdvGlowButton")
