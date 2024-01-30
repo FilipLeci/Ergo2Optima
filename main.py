@@ -24,24 +24,39 @@ passwd.click()
 
 identifiers_output = sys.stdout
 
-with open('identifiers_output.txt', 'w') as file:    
-    sys.stdout = file        
-    ergo_app.ErgoFakturyiMagazyn.print_control_identifiers()
-sys.stdout = identifiers_output
+# with open('identifiers_output.txt', 'w') as file:    
+#     sys.stdout = file        
+#     ergo_app.ErgoFakturyiMagazyn.print_control_identifiers()
+# sys.stdout = identifiers_output
 
 menu_towary = ergo_app.ErgoFakturyiMagazyn.menu_select("Towary -> [3]")
 
 towary=ergo_app.ListaTowarow.window(class_name="TClientGrid")
+
+with open('identifiers_output.txt', 'w') as file:    
+    sys.stdout = file        
+    ergo_app.ListaTowarow.print_control_identifiers()
+sys.stdout = identifiers_output
 #preview=ergo_app.Podglad.print_control_identifiers()
 ########################
 towary.send_keystrokes("{DOWN 170}") 
 # towary.send_keystrokes("{DOWN 67}")
-############################################################
-# left, top, right, bottom = 1365, 1258, 1476, 1280
-left, top, right, bottom = 1420, 1258, 1476, 1280
-region = (left, top, right, bottom)
+
+
+# 3340x1440
+# left_stan, top_stan, right_stan, bottom_stan = 1420, 1258, 1476, 1280
+#1920X1080
+left_stan, top_stan, right_stan, bottom_stan = 1016, 738, 1090, 764
+region_stan = (left_stan, top_stan, right_stan, bottom_stan)
+
+# print("Bieżący katalog roboczy:", current_directory)
+# 3340x1440
+# left_cena, top_cena, right_cena, bottom_cena = 1420, 1258, 1476, 1280
+# 1920X1080
+left_cena, top_cena, right_cena, bottom_cena = 214, 200, 320, 675
+region_cena = (left_cena, top_cena, right_cena, bottom_cena)
 current_directory = os.getcwd()
-print("Bieżący katalog roboczy:", current_directory)
+
 
 t1 = math.floor(time.time())
 count = 0
@@ -54,23 +69,25 @@ with open(file_path, "a") as file:
 
     while True:
         count+=1
-        screenshot = ImageGrab.grab(bbox=region)
-        enhancer = ImageEnhance.Contrast(screenshot)
-        screenshot = enhancer.enhance(2.0)
-        text = pytesseract.image_to_string(screenshot).replace(',', '').replace('\n', '').strip()
+        screenshot_stan = ImageGrab.grab(bbox=region_stan)
+        enhancer_stan = ImageEnhance.Contrast(screenshot_stan)
+        screenshot_stan = enhancer_stan.enhance(2.0)
+        time.sleep(1.8)
+        text_stan = pytesseract.image_to_string(screenshot_stan).replace(',', '').replace('\n', '').strip()
+        time.sleep(1.8)
 
-        if not text:
-            text = 0
+        if not text_stan:
+            text_stan = 0
             #print("Odczytany stan:", text)
         else:
             try:
-                text = int(float(text))
-                text/=100
+                text_stan = int(float(text_stan))
+                text_stan/=100
             except ValueError:
-                text = 0
+                text_stan = 0
                 print("Nie można przekształcić odczytanego stanu na liczbę całkowitą. Ustawiam stan na 0.")
 
-        if text > 0:
+        if text_stan > 0:
             _t = math.floor(time.time()-t1)
             print("czas=%d, srednio=%f, ilosc=%d" % (_t, _t/count, count))
             towary.type_keys("{ENTER}")
@@ -79,11 +96,19 @@ with open(file_path, "a") as file:
             edit_nazwa= ergo_app.Podglad.child_window(class_name="TLEditStr", found_index=13).window_text()
             edit_cena= ergo_app.Podglad.child_window(class_name="TLEditNum", found_index=8).window_text()
 
-            new_row = f"{edit_kod};{edit_nazwa};{edit_cena};{text}\n"
+            new_row = f"{edit_kod};{edit_nazwa};{edit_cena};{text_stan}\n"
             file.write(new_row)
-            print(edit_cena, edit_nazwa, edit_kod, int(text))
+            print(edit_cena, edit_nazwa, edit_kod, int(text_stan))
 
             ergo_app.Podglad.child_window(title="Rezygnuję", class_name="TBitBtn").click()
+            # sprawdzenie ceny zakupu/ocr 
+            towary.window(title="Stan&y", class_name="TBitBtn").click()
+            # screen ceny zakupu
+            screenshot_cena = ImageGrab.grab(bbox=region_cena)
+            enhancer_cena = ImageEnhance.Contrast(screenshot_cena)
+            screenshot_cena = enhancer_cena.enhance(2.0)
+            text_cena = pytesseract.image_to_string(screenshot_cena).replace(',', '').replace('\n', '').strip()
+            towary.StanywgcenzakupuwmagazynieD.close()
 
         towary.send_keystrokes("{DOWN}")
-        time.sleep(0.2)
+        time.sleep(1.8)
