@@ -1,6 +1,11 @@
 Kod;Nazwa;Cena;Stan
-0017;Cyrkonie typu swarovski 50szt.;5;1.0
-0043917000497;Wahl body kit maszynka fryzjerska;190;1.0
-010170;Alfaparf pêdzelek do makija¿u;19,99;8.0
-010218;Rade³ko do skorek;2,2;2.0
-010317;Alfaparf ampu³ka pielêgncja;15,4;17.0
+0017;Cyrkonie typu swarovski 50szt.;5;1.0;_
+0043917000497;Wahl body kit maszynka fryzjerska;190;1.0;nen a
+010170;Alfaparf pêdzelek do makija¿u;19,99;8.0;0,0010
+010218;Rade³ko do skorek;2,2;2.0;re
+0043917000497;Wahl body kit maszynka fryzjerska;190;4.97;re
+0103120103;La lill klej do tipsów 3g;3,1;0.03;re
+011944006034;Akrylowy puder 5g ró¿ z brokatem;6,9;60.34;re
+014021402033;Puder akrylowy kolorowy fioletowy 5g ;6,9;20.33;re
+017922524118;Barbicide pojemnik szklany do dezynfekcji 1100ml;149;41.18;re
+017922602502;Barbicide Hand - Spray do dezynfekcji skóry i r¹k 250 ml;4,99;25.02;re

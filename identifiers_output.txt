@@ -1,89 +1,89 @@
 Control Identifiers:
 
-TLScrForm - 'Lista towarów'    (L10, T66, R1891, B892)
-['Lista towarów', 'TLScrForm', 'Lista towarówTLScrForm']
+TLScrForm - 'Lista towarów'    (L1322, T72, R2527, B1379)
+['Lista towarówTLScrForm', 'Lista towarów', 'TLScrForm']
 child_window(title="Lista towarów", class_name="TLScrForm")
    | 
-   | TLPanel - ''    (L20, T109, R1881, B883)
-   | ['TLPanel', 'Lista towarówTLPanel']
+   | TLPanel - ''    (L1330, T106, R2519, B1371)
+   | ['TLPanel']
    | child_window(class_name="TLPanel")
    |    | 
-   |    | TBitBtn - '&INNE...'    (L783, T791, R896, B826)
-   |    | ['&INNE...TBitBtn', 'TBitBtn', '&INNE...', 'TBitBtn0', 'TBitBtn1']
+   |    | TBitBtn - '&INNE...'    (L1940, T1303, R2030, B1331)
+   |    | ['&INNE...', 'TBitBtn', '&INNE...TBitBtn', 'TBitBtn0', 'TBitBtn1']
    |    | child_window(title="&INNE...", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - 'ZnajdŸ'    (L658, T791, R758, B826)
-   |    | ['ZnajdŸTBitBtn', 'TBitBtn2', 'ZnajdŸ']
+   |    | TBitBtn - 'ZnajdŸ'    (L1840, T1303, R1920, B1331)
+   |    | ['TBitBtn2', 'ZnajdŸ', 'ZnajdŸTBitBtn']
    |    | child_window(title="ZnajdŸ", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - '&Rezerw'    (L533, T791, R633, B826)
-   |    | ['&RezerwTBitBtn', '&Rezerw', 'TBitBtn3']
+   |    | TBitBtn - '&Rezerw'    (L1740, T1303, R1820, B1331)
+   |    | ['TBitBtn3', '&RezerwTBitBtn', '&Rezerw']
    |    | child_window(title="&Rezerw", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - 'StMa&g'    (L420, T791, R508, B826)
-   |    | ['StMa&g', 'StMa&gTBitBtn', 'TBitBtn4']
+   |    | TBitBtn - 'StMa&g'    (L1650, T1303, R1720, B1331)
+   |    | ['StMa&gTBitBtn', 'TBitBtn4', 'StMa&g']
    |    | child_window(title="StMa&g", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - 'Stan&y'    (L308, T791, R396, B826)
-   |    | ['Stan&y', 'Stan&yTBitBtn', 'TBitBtn5']
+   |    | TBitBtn - 'Stan&y'    (L1560, T1303, R1630, B1331)
+   |    | ['Stan&yTBitBtn', 'TBitBtn5', 'Stan&y']
    |    | child_window(title="Stan&y", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - 'Zd&j'    (L220, T791, R283, B826)
-   |    | ['Zd&jTBitBtn', 'Zd&j', 'TBitBtn6']
+   |    | TBitBtn - 'Zd&j'    (L1490, T1303, R1540, B1331)
+   |    | ['TBitBtn6', 'Zd&j', 'Zd&jTBitBtn']
    |    | child_window(title="Zd&j", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - '&Zm'    (L145, T791, R195, B826)
-   |    | ['&Zm', '&ZmTBitBtn', 'TBitBtn7']
+   |    | TBitBtn - '&Zm'    (L1430, T1303, R1470, B1331)
+   |    | ['TBitBtn7', '&Zm', '&ZmTBitBtn']
    |    | child_window(title="&Zm", class_name="TBitBtn")
    |    | 
-   |    | TBitBtn - 'Pdg'    (L58, T791, R121, B826)
-   |    | ['Pdg', 'PdgTBitBtn', 'TBitBtn8']
+   |    | TBitBtn - 'Pdg'    (L1360, T1303, R1410, B1331)
+   |    | ['TBitBtn8', 'PdgTBitBtn', 'Pdg']
    |    | child_window(title="Pdg", class_name="TBitBtn")
    |    | 
-   |    | TClientGrid - ''    (L44, T133, R1858, B767)
-   |    | ['Lista towarówTClientGrid', 'TClientGrid']
+   |    | TClientGrid - ''    (L1349, T125, R2500, B1283)
+   |    | ['TClientGrid']
    |    | child_window(class_name="TClientGrid")
    | 
-   | TBitBtn - '&INNE...'    (L783, T791, R896, B826)
-   | ['&INNE...TBitBtn', 'TBitBtn', '&INNE...', 'TBitBtn0', 'TBitBtn1']
+   | TBitBtn - '&INNE...'    (L1940, T1303, R2030, B1331)
+   | ['&INNE...', 'TBitBtn', '&INNE...TBitBtn', 'TBitBtn0', 'TBitBtn1']
    | child_window(title="&INNE...", class_name="TBitBtn")
    | 
-   | TBitBtn - 'ZnajdŸ'    (L658, T791, R758, B826)
-   | ['ZnajdŸTBitBtn', 'TBitBtn2', 'ZnajdŸ']
+   | TBitBtn - 'ZnajdŸ'    (L1840, T1303, R1920, B1331)
+   | ['TBitBtn2', 'ZnajdŸ', 'ZnajdŸTBitBtn']
    | child_window(title="ZnajdŸ", class_name="TBitBtn")
    | 
-   | TBitBtn - '&Rezerw'    (L533, T791, R633, B826)
-   | ['&RezerwTBitBtn', '&Rezerw', 'TBitBtn3']
+   | TBitBtn - '&Rezerw'    (L1740, T1303, R1820, B1331)
+   | ['TBitBtn3', '&RezerwTBitBtn', '&Rezerw']
    | child_window(title="&Rezerw", class_name="TBitBtn")
    | 
-   | TBitBtn - 'StMa&g'    (L420, T791, R508, B826)
-   | ['StMa&g', 'StMa&gTBitBtn', 'TBitBtn4']
+   | TBitBtn - 'StMa&g'    (L1650, T1303, R1720, B1331)
+   | ['StMa&gTBitBtn', 'TBitBtn4', 'StMa&g']
    | child_window(title="StMa&g", class_name="TBitBtn")
    | 
-   | TBitBtn - 'Stan&y'    (L308, T791, R396, B826)
-   | ['Stan&y', 'Stan&yTBitBtn', 'TBitBtn5']
+   | TBitBtn - 'Stan&y'    (L1560, T1303, R1630, B1331)
+   | ['Stan&yTBitBtn', 'TBitBtn5', 'Stan&y']
    | child_window(title="Stan&y", class_name="TBitBtn")
    | 
-   | TBitBtn - 'Zd&j'    (L220, T791, R283, B826)
-   | ['Zd&jTBitBtn', 'Zd&j', 'TBitBtn6']
+   | TBitBtn - 'Zd&j'    (L1490, T1303, R1540, B1331)
+   | ['TBitBtn6', 'Zd&j', 'Zd&jTBitBtn']
    | child_window(title="Zd&j", class_name="TBitBtn")
    | 
-   | TBitBtn - '&Zm'    (L145, T791, R195, B826)
-   | ['&Zm', '&ZmTBitBtn', 'TBitBtn7']
+   | TBitBtn - '&Zm'    (L1430, T1303, R1470, B1331)
+   | ['TBitBtn7', '&Zm', '&ZmTBitBtn']
    | child_window(title="&Zm", class_name="TBitBtn")
    | 
-   | TBitBtn - 'Pdg'    (L58, T791, R121, B826)
-   | ['Pdg', 'PdgTBitBtn', 'TBitBtn8']
+   | TBitBtn - 'Pdg'    (L1360, T1303, R1410, B1331)
+   | ['TBitBtn8', 'PdgTBitBtn', 'Pdg']
    | child_window(title="Pdg", class_name="TBitBtn")
    | 
-   | TClientGrid - ''    (L44, T133, R1858, B767)
-   | ['Lista towarówTClientGrid', 'TClientGrid']
+   | TClientGrid - ''    (L1349, T125, R2500, B1283)
+   | ['TClientGrid']
    | child_window(class_name="TClientGrid")
    | 
-   | TNotifierWindow - ''    (L20, T105, R20, B105)
-   | ['Lista towarówTNotifierWindow', 'TNotifierWindow']
+   | TNotifierWindow - ''    (L1330, T103, R1330, B103)
+   | ['TNotifierWindow']
    | child_window(class_name="TNotifierWindow")
    | 
-   | TAdvDockPanel - ''    (L20, T105, R1881, B109)
-   | ['TAdvDockPanel', 'Lista towarówTAdvDockPanel']
+   | TAdvDockPanel - ''    (L1330, T103, R2519, B106)
+   | ['TAdvDockPanel']
    | child_window(class_name="TAdvDockPanel")

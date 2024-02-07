@@ -31,30 +31,21 @@ identifiers_output = sys.stdout
 
 menu_towary = ergo_app.ErgoFakturyiMagazyn.menu_select("Towary -> [3]")
 
-towary=ergo_app.ListaTowarow.window(class_name="TClientGrid")
+towary_grid=ergo_app.ListaTowarow.window(class_name="TClientGrid")
 
 with open('identifiers_output.txt', 'w') as file:    
     sys.stdout = file        
     ergo_app.ListaTowarow.print_control_identifiers()
 sys.stdout = identifiers_output
-#preview=ergo_app.Podglad.print_control_identifiers()
-########################
-towary.send_keystrokes("{DOWN 170}") 
+
+towary_grid.send_keystrokes("{DOWN 170}") 
 # towary.send_keystrokes("{DOWN 67}")
 
 
 # 3340x1440
-# left_stan, top_stan, right_stan, bottom_stan = 1420, 1258, 1476, 1280
-#1920X1080
-left_stan, top_stan, right_stan, bottom_stan = 1016, 738, 1090, 764
+left_stan, top_stan, right_stan, bottom_stan = 1420, 1258, 1476, 1280
 region_stan = (left_stan, top_stan, right_stan, bottom_stan)
 
-# print("Bieżący katalog roboczy:", current_directory)
-# 3340x1440
-# left_cena, top_cena, right_cena, bottom_cena = 1420, 1258, 1476, 1280
-# 1920X1080
-left_cena, top_cena, right_cena, bottom_cena = 214, 200, 320, 675
-region_cena = (left_cena, top_cena, right_cena, bottom_cena)
 current_directory = os.getcwd()
 
 
@@ -65,16 +56,15 @@ count = 0
 file_path = os.path.join(current_directory, "towary.txt")
 with open(file_path, "a") as file:
     if file.tell() == 0:
-        file.write("Kod;Nazwa;Cena;Stan\n")
+        file.write("Kod;Nazwa;Cena;Stan;Cena zakupu\n")
 
     while True:
         count+=1
         screenshot_stan = ImageGrab.grab(bbox=region_stan)
         enhancer_stan = ImageEnhance.Contrast(screenshot_stan)
-        screenshot_stan = enhancer_stan.enhance(2.0)
-        time.sleep(1.8)
+        screenshot_stan = enhancer_stan.enhance(2.0)        
         text_stan = pytesseract.image_to_string(screenshot_stan).replace(',', '').replace('\n', '').strip()
-        time.sleep(1.8)
+       
 
         if not text_stan:
             text_stan = 0
@@ -90,25 +80,52 @@ with open(file_path, "a") as file:
         if text_stan > 0:
             _t = math.floor(time.time()-t1)
             print("czas=%d, srednio=%f, ilosc=%d" % (_t, _t/count, count))
-            towary.type_keys("{ENTER}")
+            ergo_app.ListaTowarow.window(title="Pdg", class_name="TBitBtn").click()   
             
             edit_kod= ergo_app.Podglad.child_window(class_name="TLEditStr", found_index=12).window_text()
             edit_nazwa= ergo_app.Podglad.child_window(class_name="TLEditStr", found_index=13).window_text()
             edit_cena= ergo_app.Podglad.child_window(class_name="TLEditNum", found_index=8).window_text()
+            ergo_app.Podglad.child_window(title="Rezygnuję", class_name="TBitBtn").click()
+            #wejście w stany
+            ergo_app.ListaTowarow.window(title="Stan&y", class_name="TBitBtn").click()   
 
-            new_row = f"{edit_kod};{edit_nazwa};{edit_cena};{text_stan}\n"
+            left, top = 783, 180
+            right = 860
+            # Wysokość jednej komórki plus linia oddzielająca
+            cell_height = 19
+            border_height = 1
+            total_cell_height = cell_height + border_height
+
+            text_cena = None
+
+            # Iteracja przez komórki, zaczynając od pierwszej
+            for cell_index in range(49):  # Zakładając, że mamy maksymalnie 49 komórek
+                # Obliczanie pozycji górnej i dolnej krawędzi komórki
+                cell_top = top + cell_index * total_cell_height
+                cell_bottom = cell_top + cell_height
+
+                # Definiowanie obszaru zrzutu ekranu dla komórki
+                bbox = (left, cell_top, right, cell_bottom)
+                screenshot = ImageGrab.grab(bbox=bbox)
+                enhancer = ImageEnhance.Contrast(screenshot)
+                enhanced_screenshot = enhancer.enhance(2.0)
+
+                # Użycie pytesseract do ekstrakcji tekstu z komórki
+                text = pytesseract.image_to_string(enhanced_screenshot, lang='eng').strip()
+                if text:
+                    # Aktualizacja `cena_zakupu`, jeśli w komórce znajduje się tekst
+                    text_cena = text
+                    time.sleep(0.1)
+                else:
+                    # Przerywanie pętli, jeśli komórka jest pusta
+                    break
+
+            ergo_app.StanywgcenzakupuwmagazynieD.close()
+            #zapis do pliku
+            new_row = f"{edit_kod};{edit_nazwa};{edit_cena};{text_stan};{text_cena}\n"
             file.write(new_row)
             print(edit_cena, edit_nazwa, edit_kod, int(text_stan))
 
-            ergo_app.Podglad.child_window(title="Rezygnuję", class_name="TBitBtn").click()
-            # sprawdzenie ceny zakupu/ocr 
-            towary.window(title="Stan&y", class_name="TBitBtn").click()
-            # screen ceny zakupu
-            screenshot_cena = ImageGrab.grab(bbox=region_cena)
-            enhancer_cena = ImageEnhance.Contrast(screenshot_cena)
-            screenshot_cena = enhancer_cena.enhance(2.0)
-            text_cena = pytesseract.image_to_string(screenshot_cena).replace(',', '').replace('\n', '').strip()
-            towary.StanywgcenzakupuwmagazynieD.close()
 
-        towary.send_keystrokes("{DOWN}")
-        time.sleep(1.8)
+        towary_grid.send_keystrokes("{DOWN}")
+        time.sleep(0.4)
